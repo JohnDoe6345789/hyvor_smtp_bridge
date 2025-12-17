@@ -20,5 +20,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          push: false
+          push: true
           tags: hyvor-smtp-bridge:latest
